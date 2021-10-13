@@ -5,7 +5,7 @@ Library     RequestsLibrary
 
 *** Variables ***
 ${base_url}     https://jsonplaceholder.typicode.com/posts
-${EXCEL_FILE}   Documents/sandeep.xlsx
+${EXCEL_FILE}   sandeep.xlsx
 @{heading}   userID   id  title   body
 @{rows}      ${heading}
 
