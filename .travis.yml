@@ -16,11 +16,11 @@ jobs:
       before_install:
         - choco install python --version 3.8.0
         - python -m pip install --upgrade pip
-        - pip install selenium
-        - pip install robotframework
-        - pip install rpaframework
-        - pip install rpaframework-excel
-        - pip install robotframework-requests
+        - python -m pip install selenium
+        - python -m pip install robotframework
+        - python -m pip install rpaframework
+        - python -m pip install rpaframework-excel
+        - python -m pip install robotframework-requests
       env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
 install: pip3 install --upgrade pip  # all three OSes agree about 'pip3'
 # 'python' points to Python 2.7 on macOS but points to Python 3.8 on Linux and Windows
